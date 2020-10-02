@@ -1,0 +1,31 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.playingField {
+	width: 600px;
+	height: 600px;
+	outline: 8px outset brown;
+	position: absolute;
+	top: 50%; left: 50%;
+	transform: translate(-50%, -50%);
+	box-shadow: 0 0 25px;
+	background-color: burlywood;
+}
+
+.plBone {
+	position: absolute;
+	width: 150px;
+	height: 150px;
+	border: 1px solid gray;
+	background-color: black;
+	color: blanchedalmond;
+	line-height: 150px;
+	text-align: center;
+	font-size: 60px;
+	box-sizing: border-box;
+	border-radius: 10px;
+	box-shadow: 0 0 5px inset;
+	
+}
