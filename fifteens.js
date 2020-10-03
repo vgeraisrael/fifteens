@@ -40,8 +40,8 @@ for (let i = 0; i < 16; i++) {
 		element: bone
 	})
 
-	bone.style.top = y * 150 + "px"; //bone starting position on the field
-	bone.style.left = x * 150 + "px";
+	bone.style.top = y * 10 + "vw"; //bone starting position on the field
+	bone.style.left = x * 10 + "vw";
 
 	field.append(bone);
 
@@ -54,8 +54,8 @@ function move(i) {
 	if (!checkIsNeighbore(i)) return;
 	bone = positions[i];
 
-	bone.element.style.top = empty.y * 150 + "px";
-	bone.element.style.left = empty.x * 150 + "px";
+	bone.element.style.top = empty.y * 10 + "vw";
+	bone.element.style.left = empty.x * 10 + "vw";
 
 	let tempX = empty.x;
 	let tempY = empty.y;

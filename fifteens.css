@@ -4,28 +4,27 @@
 }
 
 .playingField {
-	width: 600px;
-	height: 600px;
-	outline: 8px outset brown;
+	width: 40vw;
+	height: 40vw;
+	outline: 0.7vw ridge rgba(188, 191, 238, 25);
 	position: absolute;
 	top: 50%; left: 50%;
 	transform: translate(-50%, -50%);
-	box-shadow: 0 0 25px;
-	background-color: burlywood;
+	box-shadow: 0 0 15px;
+	background-color: rgba(174, 181, 189, 0.568);
 }
 
 .plBone {
 	position: absolute;
-	width: 150px;
-	height: 150px;
-	border: 1px solid gray;
+	width: 10vw;
+	height: 10vw;
+	border: 4px outset gray;
 	background-color: black;
 	color: blanchedalmond;
-	line-height: 150px;
+	line-height: 10vw;
 	text-align: center;
-	font-size: 60px;
+	font-size: 6vw;
 	box-sizing: border-box;
 	border-radius: 10px;
 	box-shadow: 0 0 5px inset;
-	
 }
